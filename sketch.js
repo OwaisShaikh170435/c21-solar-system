@@ -79,19 +79,19 @@ function draw(){
     Engine.update(engine);
 
     sun.setCollider("circle", 0, 0, sun.width/2);
-    sun.debug = true;
+    //sun.debug = true;
    
     planet1.setCollider("circle", 0, 0, planet1.width/2);
-    planet1.debug = true;
+    //planet1.debug = true;
 
     planet2.setCollider("circle", 0, 0, planet2.width/2);
-    planet2.debug = true;
+    //planet2.debug = true;
 
     planet3.setCollider("circle", 0, 0, planet3.width/2);
-    planet3.debug = true;
+    //planet3.debug = true;
 
     planet4.setCollider("circle", 0, 0, planet4.width/2);
-    planet4.debug = true;
+    //planet4.debug = true;
 
     comet.setCollider("circle", 0, 0, comet.width/2);
     
